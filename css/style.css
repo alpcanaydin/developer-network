@@ -30,6 +30,10 @@ html,body {
 	line-height:1.25em;
 }
 
+body {
+	background: #222;
+}
+
 .sigma-parent {
 	position: relative;
 	height: 100%;
@@ -497,4 +501,21 @@ canvas#sigma_bg_1 {
   padding: 2px 6px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+
+
+#app {
+	visibility: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#loading {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -75px;
+	margin-top: -75px;
 }

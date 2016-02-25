@@ -91,6 +91,8 @@ function initSigma(config) {
 
 
   dataReady = function() { //This is called as soon as data is loaded
+    $("#loading").hide();$("#app").css('visibility', 'visible');
+
     a.clusters = {};
 
     a.iterNodes(
