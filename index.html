@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <title>developer network</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]--> <!-- js/default.js -->
+
+
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <div class="sigma-parent">
+      <div class="sigma-expand" id="sigma-canvas"></div>
+    </div>
+    <div id="mainpanel">
+      <h1>developer network</h1>
+      <p class="desc">
+        türkiye'deki geliştiricilerin ve tasarımcıların birbirleri arasındaki ağ.
+        <a href="http://fatiherikli.github.io/programming-language-network" target="_blank">programming language network</a>
+        uygulamasından esinlenilmiştir.
+        <span class="note" title="En az 10 kişi tarafından takip edilen ve ismi Türkçe olan kullanıcılar bulunmaktadır.">?</span>
+      </p>
+      <form>
+        <div id="search" class="link">
+          <h2>Kullanıcı Ara</h2>
+          <input type="text" name="search" value="kullanıcı adı veya isim" class="empty"/>
+          <div class="results"></div>
+        </div>
+      </form>
+      <p class="text-center author">
+        made with <a href="http://neo4j.com/" target="_blank">neoj4</a>,
+        <a href="http://graphml.graphdrawing.org/" target="_blank">graphml</a>,
+        <a href="http://gephi.org" target="_blank">gephi</a> and
+        <a href="http://sigmajs.org/" target="_blank">sigma.js</a>
+        by <a href="https://twitter.com/alpcanaydin" target="_blank">@alpcanaydin</a>
+      </p>
+    </div>
+    <div id="zoom">
+      <div class="z" rel="in"></div>
+      <div class="z" rel="out"></div>
+      <div class="z" rel="center"></div>
+    </div>
+    <div id="attributepane">
+      <div class="text">
+        <div title="Close" class="left-close returntext">
+          <div class="c cf"><span>&laquo; Tüm Ağa Geri Dön</span></div>
+        </div>
+
+        <div class="nodeattributes">
+          <div class="name namepanel"></div>
+          <div class="link people">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendors.js"></script>
+    <script src="js/main.min.js" type="text/javascript" language="javascript"></script>
+  </body>
+</html>

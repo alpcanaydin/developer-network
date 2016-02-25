@@ -1,0 +1,37 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "features": {
+    "search": true,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "avatar"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#000",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "",
+      "hoverFontStyle": "",
+      "defaultLabelSize": 11
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 13
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 1
+    }
+  }
+}
